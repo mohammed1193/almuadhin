@@ -3,7 +3,7 @@ from datetime import datetime
 import json
 
 class AlAdhanAPI:
-    BASE_URL = "http://api.aladhan.com/v1"
+    BASE_URL = "https://api.aladhan.com/v1"
     
     def __init__(self):
         self.session = requests.Session()

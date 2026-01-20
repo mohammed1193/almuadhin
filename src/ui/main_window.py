@@ -185,10 +185,10 @@ class MainWindow(QMainWindow):
         next_prayer_layout.addWidget(self.next_prayer_label)
         
         self.countdown_label = QLabel("00:00:00")
-        countdown_font = QFont("Tajawal", 40, QFont.Weight.Bold)
+        countdown_font = QFont("Tajawal", 32, QFont.Weight.Bold)
         self.countdown_label.setFont(countdown_font)
         self.countdown_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.countdown_label.setStyleSheet("color: white; padding: 8px; letter-spacing: 2px;")
+        self.countdown_label.setStyleSheet("color: white; padding: 8px; letter-spacing: 0px;")
         next_prayer_layout.addWidget(self.countdown_label)
         
         main_layout.addWidget(next_prayer_card)
